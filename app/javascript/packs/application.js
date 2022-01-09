@@ -9,8 +9,12 @@ require("jquery")
 import 'materialize-css/dist/js/materialize'
 
 $(document).on('turbolinks:load', function() {
+  $('.sidenav').sidenav();
   $(".dropdown-trigger").dropdown();
+
 })
+
+
 
 
 console.log('Hello World from Webpacker')
