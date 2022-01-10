@@ -298,12 +298,13 @@ DEPENDENCIES
   popper
   puma (~> 5.0)
   rails (~> 7.0.1)
+  rexml
   sassc-rails
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
-  turbo-rails
+  turbo-rails (~> 1.0.0)
   tzinfo-data
   web-console
   webdrivers
